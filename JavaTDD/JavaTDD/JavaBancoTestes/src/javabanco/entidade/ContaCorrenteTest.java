@@ -82,7 +82,7 @@ public class ContaCorrenteTest {
 @Test
 	public void testTrensferencia(){
 		ContaCorrente cc = new ContaCorrente(1234, "joão da Silva");
-		ContaCorrente ccDestino = new ContaCorrente (5678, "rogério da Silva");
+		ContaCorrente ccDestino = new ContaCorrente (5678, "ronaldo da Silva");
 		cc.debito(10);
 		ccDestino.credito(10);
 		assertEquals(-10, cc.saldo(), 0);
